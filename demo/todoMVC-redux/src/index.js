@@ -3,7 +3,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './page/TodoMVC.js';
 import {Provider} from 'react-redux';
-import "qnui/build/qnui.min.css";
 import 'styles/App.scss';
 import configureStore from './redux/store/configureStore.dev.js';
 import DevTools from './redux/Devtools.js'
@@ -14,7 +13,6 @@ ReactDOM.render(
     <Provider store={store}>
       <div>
         <App />
-        <DevTools/>
       </div>
     </Provider>,
   document.getElementById('app'));
