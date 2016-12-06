@@ -5,7 +5,6 @@ import '../styles/main.scss';
 const disabledDate = function (theDate) {
     return theDate && theDate < Moment().add(-1,'d');
 };
-
 class TodoMVC extends React.Component {
   constructor(props) {
     super(props);
