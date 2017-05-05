@@ -1,17 +1,26 @@
 # demo说明
 
-## 目前本仓库仅用于呈现项目demo
 
-## demo目录包括
+已支持[fie](https://github.com/fieteam/fie)体系。
 
-- todoMVC
+使用[fie-toolkit-qnui](https://github.com/fieteam/fie-toolkit-qnui)完成业务开发的调试打包等一系列工作。
 
-> 一个基于qnui和redux的简单示例
+# quick start
 
-## 使用说明
+1、安装fie
 
-- clone项目后，进入demo目录执行 `npm install`
+`npm install fie -g --registry=https://registry.npm.taobao.org`
 
-- npm start 即可运行
+2、安装qnui
 
-- 其他命令详见package.json的scripts
+`fie install toolkit-qnui`
+
+3、初始化项目
+
+`fie init qnui`
+
+4、开始调试
+
+`fie start`
+
+更详细的使用文档请参考https://github.com/fieteam/fie-toolkit-qnui

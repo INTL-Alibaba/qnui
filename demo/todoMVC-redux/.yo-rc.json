@@ -1,8 +1,0 @@
-{
-  "generator-react-webpack": {
-    "appName": "qnuiProject",
-    "style": "scss",
-    "postcss": false,
-    "generatedWithVersion": 3
-  }
-}
